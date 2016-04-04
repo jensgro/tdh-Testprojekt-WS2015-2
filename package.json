@@ -1,0 +1,26 @@
+{
+  "name": "tdh-Projekt",
+  "version": "1.0.0",
+  "description": "Testprojekt für die Uni",
+  "author": {
+    "name": "Jens Grochtdreis",
+    "email": "jens@grochtdreis.de",
+    "url": "http://grochtdreis.de"
+  },
+  "directories": {
+    "development": "dev",
+    "distribution": "dist",
+    "html": "html"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-php2html": "~0.1.7",
+    "grunt-html-validation": "~0.1.13",
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~0.6.0",
+    "load-grunt-config": "~0.10.0",
+    "grunt-contrib-analyze-css": "~0.2.1",
+    "time-grunt": "~1.0.0"
+  }
+}
