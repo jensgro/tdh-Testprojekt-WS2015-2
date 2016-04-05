@@ -65,6 +65,7 @@
   .activities_left .suppressed>div {
     overflow: hidden;
     position: fixed;
+    height: 0%;
     opacity: 0;
   }
 
