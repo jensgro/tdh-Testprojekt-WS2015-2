@@ -6,22 +6,22 @@
 	$pageheadline ="Sponsoren";
 
 	$contentleftincludes = array(
-    'sponsoren.inc'
+    	'leer.inc'
 	);
 
 	$contentrightincludes = array(
-    'leer.inc'
+    	'leer.inc'
 	);
 
 	$sideincludes = array(
 		'leer.inc'
 	);
 
-  $widecontent = array(
-  	'leer.inc'
+  	$widecontent = array(
+  		'sponsoren.inc'
   );
 
-	include 'inc/templates/template-2-1.inc';
+	include 'inc/templates/template-2-1-wide.inc';
 ?>
 
 
