@@ -6,7 +6,7 @@
 	$pageheadline ="Sponsoren";
 
 	$contentleftincludes = array(
-    'leer.inc'
+    'sponsoren.inc'
 	);
 
 	$contentrightincludes = array(
@@ -23,3 +23,5 @@
 
 	include 'inc/templates/template-2-1.inc';
 ?>
+
+
