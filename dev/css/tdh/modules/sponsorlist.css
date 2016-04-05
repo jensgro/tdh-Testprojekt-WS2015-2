@@ -1,0 +1,25 @@
+.sponsors{
+	width: 100%;
+	vertical-align: middle;
+}
+
+tr{
+	border-bottom: 1px dotted black;
+	height: 40px;
+}
+
+.cell-1 p{
+	color: red;
+	font-weight: bold;
+	padding: 10px 0;
+	margin: 0;
+	vertical-align: middle;
+
+}
+
+.cell-1 img{
+	float:left;
+}
+
+.cell-2{
+}
