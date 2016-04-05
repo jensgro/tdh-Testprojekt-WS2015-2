@@ -6,11 +6,11 @@
 	$pageheadline ="Unsere Aktivitäten";
 
 	$contentleftincludes = array(
-    'leer.inc'
+    'activities/contentleft_header.inc','activities/contentleft_1.inc','activities/contentleft_2.inc','activities/contentleft_3.inc','activities/contentleft_footer.inc'
 	);
-  
+
 	$contentrightincludes = array(
-    'leer.inc'
+    'activities/contentright.inc'
 	);
 
 	$sideincludes = array(
