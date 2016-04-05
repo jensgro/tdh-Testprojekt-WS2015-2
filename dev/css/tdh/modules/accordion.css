@@ -43,8 +43,7 @@
   .activities_left h3:after {
     content: "";
     border: 10px solid transparent;
-    border-top: 10px solid #AD1921;
-    color: #BB4047;
+    border-top: 10px solid #6B6B6B;
     position: absolute;
     right: 0;
     bottom: 25%;
@@ -54,6 +53,9 @@
     border-top-color: #AD1921;
   }
 
+  .activities_left .suppressed h3 {
+    color: #000000;
+  }
 
   .activities_left .suppressed h3:after {
     color: #000000;
