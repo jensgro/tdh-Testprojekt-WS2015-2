@@ -46,7 +46,7 @@
     border-top: 10px solid #6B6B6B;
     position: absolute;
     right: 0;
-    bottom: 25%;
+    bottom: 5px;
 
   }
   .activities_left h3:hover:after {
