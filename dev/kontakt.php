@@ -4,7 +4,7 @@
   $navigation = "kontakt";
 
 	$contentleftincludes = array(
-        'leer.inc'
+        'contact-julges.inc'
 	);
 
   $contentrightincludes = array(

@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../css/tdh/modules/contact-julges.css" media="screen" title="no title" charset="utf-8">
-
 <form action="" method="get" class="contact-form" id="contact-form">
   <div class="clearfix contact-form__element">
     <label for="subject">
