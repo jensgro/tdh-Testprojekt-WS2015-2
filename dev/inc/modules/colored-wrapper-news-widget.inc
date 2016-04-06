@@ -7,6 +7,17 @@
       <strong>Stichwort= "Erdbeben Haiti"</strong>. Alle Spenden reichen wir
       weiter an die Partnerorganisation tdh Lausanne, die vor Ort Hilfe leistet.
     </p>
+    <div class="spenden_button">
+      <div class="spenden_icon">
+        <img src="images/spenden-icon.png" alt="Spenden Icon">
+      </div>
+      <button type="submit" class="button">
+        <span class="text">
+          <span class="sicher_schnell">sicher &amp; schnell</span>
+          <span class="online_spenden">online spenden</span>
+        </span>
+      </button>
+    </div>
   </div>
   <div class="container-right">
     <div class="inner-container">
