@@ -36,7 +36,7 @@
 				<td class="cell-2">Bischweiler</td>
 			</tr>
 			<tr>
-				<td class="cell-1"><img src=""><p>Abacus Nachhilfeinstitut</p></td>
+				<td class="cell-1"><p>Abacus Nachhilfeinstitut</p></td>
 				<td class="cell-2">Gernsbach-Scheuern</td>
 			</tr>
 			<tr>
