@@ -1,0 +1,74 @@
+.button{
+background-color: white;
+border: 1px solid grey;
+box-shadow: 2px 2px 2px #888888;
+border-radius: 2px;
+padding: 5px;
+text-decoration: none;
+display: inline-block;
+width: 180px;
+height:45px;
+position:absolute;
+top:5px;
+left:40px;
+z-index:1;
+}
+
+.spenden_icon{
+  position: absolute;
+  top:3px;
+  left:17px;
+  z-index:10;
+}
+.spenden_icon img{
+  width: 55px;
+  height:auto;
+}
+
+.sicher_schnell{ color:#6F6F6F; font-size: 12px;}
+.online_spenden{  color: #AD1921; font-size: 14px; font-weight: bold; padding-left:22px;}
+
+button:active {
+  background-color: #a6a6a6;
+}
+
+/*zweiter Button*/
+
+.text2{text-align: right;color: white; font-weight: bold; font-size: 14px; }
+.button2{
+background-color: white;
+border: 1px solid grey;
+box-shadow: 2px 2px 2px #888888;
+padding: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+width: 180px;
+height:45px;
+z-index:1;
+}
+
+.button2:active {
+  box-shadow: 0 1px 0 #00823F;
+   background-color: #a6a6a6;
+    bottom:-4px;
+}
+
+.button2:hover {
+  cursor:pointer;
+}
+.info_icon{
+  position: absolute;
+  top:68px;
+  left:25px;
+  z-index:11;
+}
+.button2{
+  background-color:black;
+  position:absolute;
+  top:65px;
+  left:40px;
+}
+
+
+.info_icon img{width: 40px; height: auto;}

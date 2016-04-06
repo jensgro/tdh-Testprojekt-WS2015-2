@@ -113,6 +113,7 @@ module.exports = function(grunt) {
   }); // grunt.initConfig
 
   grunt.registerTask('dist', ['clean:dist', 'copy:dist', 'replace:dist']);
-  grunt.registerTask('html', ['clean:html', 'php2html', 'copy:html', 'validation']);
+  grunt.registerTask('html', ['clean:html', 'php2html', 'copy:html']);
+  // grunt.registerTask('html', ['clean:html', 'php2html', 'copy:html', 'validation']);
 
 };

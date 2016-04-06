@@ -1,0 +1,78 @@
+/*Debugging*/
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+/*Clearfix*/
+.clearfix:after{
+  clear:both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+/*=================================================================*/
+
+/*New Styles for colored background in articles*/
+.colored-wrapper{
+  display: inline-block;
+  background-color: #e6ffff;
+  color: #004d4d;
+  font-family: sans-serif;;
+  font-size: 14px;
+  padding: 10px 15px 10px 12px;
+  margin-bottom: 5px;
+  clear: both;
+
+}
+.colored-wrapper h2{
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+.colored-wrapper h3{
+  color:red;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+/*Images, Links, Lists*/
+.colored-wrapper img{
+  float:left;
+  margin-right: 20px;
+}
+.colored-wrapper a{
+  color: inherit;
+}
+.colored-wrapper ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+/*inner containers*/
+.container-left{
+  float: left;
+  margin-right: 10px;
+}
+.container-right{
+  float: right;
+  margin-left: 10px;
+}
+.inner-container{
+  margin-bottom: 15px;
+}
+/*News-Widget*/
+.news-widget p, .news-widget .inner-container{
+  font-size:11px;
+  margin: 0px;
+}
+.news-widget .container-left{
+  width: 65%;
+}
+.news-widget .container-right{
+  width: 30%;
+}

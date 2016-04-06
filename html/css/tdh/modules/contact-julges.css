@@ -1,0 +1,102 @@
+/*Debugging*/
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+/*Clearfix*/
+.clearfix:after{
+  clear:both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix{
+  display:block;
+}
+.clearfix{
+  *height: 1%;
+}
+.clearing{
+  clear: both;
+  line-height: 0px;
+  font-size: 1px;
+  height: 0px;
+}
+
+/*==============================================================*/
+/*eigene Styles*/
+
+.contact-form{
+  color: black;
+  font-family: sans-serif;
+}
+
+/*Element = Label + Input*/
+.contact-form__element{
+  margin-bottom: 15px;
+}
+
+.contact-form label{
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  width: 30%;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contact-form p{
+  margin-top:5px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc(100% - 30% - 10px - 5px);
+  font-family: inherit;
+  border: 1px solid grey;
+  font-size: 13px;
+  box-shadow: inset 0 1px 1px #cccccc;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+  background-color: #f2f2f2;
+}
+
+.contact-form select{
+  vertical-align: top;
+  width: 40%;
+}
+
+.contact-form textarea{
+  overflow: auto;
+  resize: none;
+  outline: none;
+}
+
+.submit-btn{
+  float: right;
+  font-weight: bold;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  background-color: #cc0000;
+  border: none;
+  box-shadow: 0 1px 1px #4d0f00;
+}
+
+.submit-btn:hover{
+  cursor: pointer;
+  background-color: #ff3300;
+  transition: background-color 0.5s;
+}
+
+.submit-btn:active{
+  margin-top: 2px;
+  box-shadow: none;
+}
