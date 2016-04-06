@@ -3,14 +3,14 @@
 	
 	<p><strong>Was wollen Sie sehen?</strong></p>
 	<form class="form_selection">
-		<select class="sel_character">
-		  <option value="A">A</option>
-		  <option value="B">B</option>
-		  <option value="C">C</option>
-		  <option value="D">D</option>
+		<select class="sel_character" id="setit">
+		  <option value="a.html">A</option>
+		  <option value="b.html">B</option>
+		  <option value="c.html">C</option>
+		  <option value="d.html">D</option>
 		</select>
 	
-		<select class="sel_town">
+		<select class="sel_town" name="list2">
 		  <option value="1">Kuppenheim</option>
 		  <option value="2">Bischweiler</option>
 		  <option value="3">Karlsruhe</option>
@@ -20,7 +20,9 @@
 
 
 	<p class="form_selection1"><strong>Auswahl treffen und dann</strong>
-	<input type="submit" value="Inhalt sortieren"><a href=""></a></p>
+<input type="button" value="Inhalt sortieren" onclick="window.open(setit.options[setit.selectedIndex].value)">>
+
+</p>
 	
 	
 	<table class="sponsor_list">
