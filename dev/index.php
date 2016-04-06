@@ -6,13 +6,8 @@
 
 	// leer.inc ist nur ein Platzhalter, der gelöscht werden muss.
 	$contentleftincludes = array(
-	   'sponsor-list/header.inc',
-    'sponsor-list/sponsor.inc',
-    'sponsor-list/sponsor.inc',
-    'sponsor-list/sponsor.inc',
-    'sponsor-list/sponsor.inc',
-    'sponsor-list/sponsor.inc',
-    'sponsor-list/footer.inc'
+	   'benefizkonzert.inc',
+	   'sponsor.inc'
 	);
 
 	$contentrightincludes = array(
@@ -24,6 +19,16 @@
 	   'donations-buttons.inc',
 	   'contact-person.inc',
 	   'contact-person2.inc'
+	);
+
+	$widecontent = array(
+	 'sponsor-list/header.inc',
+	 'sponsor-list/sponsor.inc',
+	 'sponsor-list/sponsor.inc',
+	 'sponsor-list/sponsor.inc',
+	 'sponsor-list/sponsor.inc',
+	 'sponsor-list/sponsor.inc',
+	 'sponsor-list/footer.inc'
 	);
 
 	// Auf manchen Seiten wird dieses Array benötigt.
@@ -41,5 +46,5 @@
 	// 			'leer.inc'
 	// );
 
-	include 'inc/templates/template-2-1.inc';
+	include 'inc/templates/template-1-2-wide.inc';
 ?>
