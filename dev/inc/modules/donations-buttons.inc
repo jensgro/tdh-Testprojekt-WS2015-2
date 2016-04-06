@@ -6,3 +6,10 @@
       <div class="online_spenden">online spenden</div>
     </div>
    </button>
+   
+   <div class="info_icon"><img src="/home/fresh/daten/WebPraktikum/button2/info-icon.png" alt="Spenden Icon"></div>
+   <button type="button" class="button2">
+    <div class="text">
+      Unser Spendenkonto
+    </div>
+   </button>
