@@ -19,10 +19,17 @@
 
 .ym-column {
   display: block;
-  overflow: hidden;
   padding-right: 175px; /* column width */
   width: auto;
 	background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
+}
+
+.ym-column:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
 }
 
 .ym-col1 {  /* content */
@@ -48,6 +55,7 @@
 /*  Der Footer */
 .sitefooter {
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .sitefooter a {

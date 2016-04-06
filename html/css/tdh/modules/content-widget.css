@@ -1,0 +1,37 @@
+/*content-widget transperent*/
+
+.content-widget {
+  font-size: 0.8em;
+  background-color: transparent;
+  border-bottom: 2px solid #B1B3B3;
+  margin: 1.5em 0;
+}
+
+.content-widget img {
+  margin-bottom:   10px;
+}
+
+.content-widget h3 {
+  color: #6F6F6F;
+  display: block;
+  font-size:   14px;
+  font-weight:   bold;
+}
+
+.content-widget h4 {
+  color: #AD1921;
+  font-weight:   bold;
+  font-size:   14px;
+}
+
+.content-widget ul {
+  margin:   0 0 0.1em 0;
+}
+
+.content-widget li {
+  color: #AD1921;
+}
+
+.content-widget p {
+  margin:   0 0 5em 0;
+}
