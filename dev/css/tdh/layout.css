@@ -2,7 +2,7 @@
 /*  box sizing */
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
-					box-sizing: border-box; 
+					box-sizing: border-box;
 }
 
 .ym-wrapper {
@@ -53,4 +53,26 @@
 .sitefooter a {
 	float: right;
 	margin-left: 20px;
+}
+
+@media screen and (max-width: 640px) {
+	.ym-col1, .ym-col3 {
+		float: none;
+		margin: 0;
+		width: 100%;
+		padding: 20px;
+	}
+	.ym-column {
+		padding-right: 0;
+		background-image: none;
+	}
+
+	.ym-grid {
+		display: block;
+	}
+	.ym-gl, .ym-gr {
+		float: none;
+		display: block;
+		width: 100%;
+	}
 }
