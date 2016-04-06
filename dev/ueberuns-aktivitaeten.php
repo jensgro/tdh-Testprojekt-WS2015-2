@@ -23,7 +23,7 @@
 	);
 
 	$contentrightincludes = array(
-    'activities/contentright.inc'
+    'feuermacher.inc'
 	);
 
 	$sideincludes = array(
