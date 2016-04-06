@@ -4,11 +4,13 @@
 	$navigation = "dasteam";
 
 	$contentleftincludes = array(
-    'leer.inc'
+    'colored-wrapper-contact.inc'
 	);
-  
+
 	$contentrightincludes = array(
-    'leer.inc'
+    'colored-wrapper-name-list.inc',
+    'colored-wrapper-bank-account.inc',
+    "colored-wrapper-news-widget.inc"
 	);
 
 	$sideincludes = array(
