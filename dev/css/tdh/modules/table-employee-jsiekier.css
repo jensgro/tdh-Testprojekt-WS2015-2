@@ -28,10 +28,13 @@
 }
 .table-emp .form:after{
     content: "";
-    display: block;
+    display: inline-block;
     border: 7px solid transparent;
     width: 0;
     height: 0;
     border-top-color: #000;
-    float: right;
+   // float: right;
+    position: relative;
+    top: 5px;
+    left: 10px;
 }
