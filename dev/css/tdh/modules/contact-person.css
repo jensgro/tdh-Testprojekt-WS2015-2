@@ -1,0 +1,9 @@
+.box{background-color: #ebebeb; height: auto; width: 175px;}
+
+.box .image{margin-left: 5px; padding-top: 8px; margin-right: 5px;}
+
+.informationen{font-family: Arial, sans-serif; padding-top: 10px; margin-left: 8px; margin-right: 5px;}
+.informationen .text1{font-size: 8px;font-weight: 600;}
+.informationen .text2{color: #ae0000; font-size: 12px; font-weight: 600; padding-top: 3px;}
+.informationen .name{font-size: 12px; font-weight: bolder; padding-top: 7px; width: 160px;}
+.informationen .telnummer{font-size: 12px; font-weight: 300; padding-top: 5px;}
