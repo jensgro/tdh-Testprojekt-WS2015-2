@@ -32,8 +32,8 @@ z-index:1;
 button:active{
   background-color: #6F6F6F;
 }
-<!--zweiter Button-->
 
+/*zweiter Button*/
 .text{text-align: right;color: white; font-weight: bold; font-size: 14px; }
 .button2{
 background-color: white;
