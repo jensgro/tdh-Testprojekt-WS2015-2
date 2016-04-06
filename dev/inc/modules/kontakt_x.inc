@@ -1,6 +1,6 @@
 
 <!-- einfach nur ein leeres File -->
-<div class="contact">
+<div class="contact-x">
 
 <h3>Kontakt mit terre des hommes Murgtal</h3>
 
@@ -15,7 +15,7 @@
         <select id="anliegen">
           <option value="0" selected disabled>Allgemeines</option>
           <option value="1">Option 1</option>
-          <option value="2">Option 2</option>      
+          <option value="2">Option 2</option>
         </select>
          </div>
 
@@ -41,7 +41,7 @@
 
 </div>
 <div class="button">
-       
+
         <input type="button" value="Nachricht senden">
          </div>
 

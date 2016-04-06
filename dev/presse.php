@@ -6,13 +6,13 @@
 	$pageheadline ="Presse";
 
 	$contentleftincludes = array(
-    'leer.inc',
+    'kontakt-jsiekier.inc',
 	);
 
 	$contentrightincludes = array(
     'leer.inc'
 	);
-  
+
 	$sideincludes = array(
 		'leer.inc'
 	);

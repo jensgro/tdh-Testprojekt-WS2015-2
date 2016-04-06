@@ -1,65 +1,56 @@
-
-.contact{
-
-}
-
-.contact .seite{
+.contact-x .seite{
 
 }
-.contact label{
-
+.contact-x label{
 	width: 33%;
 	float:left;
 }
 
 
 
-.contact .formular p{
-
+.contact-x .formular p{
 	width: 30%;
 font-size: 12px;
 
 }
-.contact input{
+.contact-x input{
 	width:45%;
 	margin-bottom: 5px;
 }
 
-.contact .button input{
+.contact-x .button input{
 	background-color: #AD1921;
 	border: 0;
 	float:right;
 	padding: 5px;
 }
 
-.contact textarea{
+.contact-x textarea{
 resize:none;
 width: 67%;
 float: right;
-
 }
 
 
 
-.contact .button input{
+.contact-x .button input{
 	margin-top: 10px;
 	color:#fff;
 	width: 33%;
 }
 
-.contact .nachricht{
+.contact-x .nachricht{
 	margin-top: 20px;
 	float:right;
 }
 
 
-.contact select{
+.contact-x select{
 width:40%;
 }
 
 .clearfix:after{
 	content: "";
 	display: block;
-	clear: block;
+	clear: both;
 }
-
