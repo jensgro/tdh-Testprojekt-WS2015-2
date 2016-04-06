@@ -1,3 +1,7 @@
+.spenden_button, .spendenkonto_button{
+  position:relative;
+  width:180px;
+}
 .button{
 background-color: white;
 border: 1px solid grey;
@@ -6,18 +10,15 @@ border-radius: 2px;
 padding: 5px;
 text-decoration: none;
 display: inline-block;
-width: 180px;
+width: 100%;
 height:45px;
-position:absolute;
-top:5px;
-left:40px;
 z-index:1;
 }
 
 .spenden_icon{
   position: absolute;
-  top:3px;
-  left:17px;
+  left: -16px;
+  top: -3px;
   z-index:10;
 }
 .spenden_icon img{
@@ -34,18 +35,18 @@ button:active {
 
 /*zweiter Button*/
 
-.text2{text-align: right;color: white; font-weight: bold; font-size: 14px; }
+.text2{color: white; font-weight: bold; font-size: 12px; }
 .button2{
-background-color: white;
+background-color: black;
 border: 1px solid grey;
 box-shadow: 2px 2px 2px #888888;
 padding: 5px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-width: 180px;
 height:45px;
 z-index:1;
+width: 100%;
 }
 
 .button2:active {
@@ -59,16 +60,11 @@ z-index:1;
 }
 .info_icon{
   position: absolute;
-  top:68px;
-  left:25px;
-  z-index:11;
+  left: -16px;
+  top: 5px;
+  z-index:10;
 }
-.button2{
-  background-color:black;
-  position:absolute;
-  top:65px;
-  left:40px;
-}
+
 
 
 .info_icon img{width: 40px; height: auto;}
