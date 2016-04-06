@@ -10,7 +10,7 @@
 	);
 
 	$contentrightincludes = array(
-    	'leer.inc'
+    	'thanks.inc'
 	);
 
 	$sideincludes = array(
@@ -23,5 +23,3 @@
 
 	include 'inc/templates/template-2-1-wide.inc';
 ?>
-
-
