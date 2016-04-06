@@ -26,8 +26,8 @@ z-index:1;
   height:auto;
 }
 
-.sicher_schnell{ color:#6F6F6F; font-size: 12px;}
-.online_spenden{  color: #AD1921; font-size: 14px; font-weight: bold; padding-left:22px;}
+.sicher_schnell{ color:#6F6F6F; font-size: 12px; display:block;}
+.online_spenden{  color: #AD1921; font-size: 14px; font-weight: bold; padding-left:22px; display:block;}
 
 button:active {
   background-color: #a6a6a6;
