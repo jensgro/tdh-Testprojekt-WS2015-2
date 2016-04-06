@@ -55,6 +55,7 @@
 /*  Der Footer */
 .sitefooter {
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .sitefooter a {
