@@ -12,6 +12,6 @@
   <ul>
     <li><a href="#">PDF Download</a></li>
   </ul>
-  <article>
+</article>
 </section>
 </div>
