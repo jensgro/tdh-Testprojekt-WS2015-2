@@ -1,4 +1,4 @@
-<div class="colored-wrapper">
+<div class="colored-wrapper clearfix">
   <h2>Unsere Spendenkonten</h2>
   <div class="container-left">
     <ul>
