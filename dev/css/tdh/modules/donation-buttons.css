@@ -34,8 +34,7 @@ button:active {
 }
 
 /*zweiter Button*/
-
-.text2{color: white; font-weight: bold; font-size: 12px; }
+.text2{color: white; font-weight: bold; font-size: 14px; float:right; padding-right: 5px;}
 .button2{
 background-color: black;
 border: 1px solid grey;
