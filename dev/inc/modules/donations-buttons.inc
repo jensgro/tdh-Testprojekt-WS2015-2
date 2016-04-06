@@ -1,3 +1,5 @@
+<!--  JG: Machen Sie daraus bitte zwei separate Dateien und binden Sie diese dann auch separat in die PHP-Datei(en) ein. -->
+
 <div class="spenden_button">
   <div class="spenden_icon">
     <img src="images/spenden-icon.png" alt="Spenden Icon">
