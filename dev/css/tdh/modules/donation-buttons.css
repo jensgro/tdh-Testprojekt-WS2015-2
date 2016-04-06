@@ -32,3 +32,44 @@ z-index:1;
 button:active{
   background-color: #6F6F6F;
 }
+<!--zweiter Button-->
+
+.text{text-align: right;color: white; font-weight: bold; font-size: 14px; }
+.button2{
+background-color: white;
+border: 1px solid grey;
+box-shadow: 5px 5px 2px #888888;
+padding: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+width: 180px;
+height:45px;
+z-index:1; 
+}
+
+.button2:active {
+  box-shadow: 0 1px 0 #00823F;
+   background-color: a6a6a6;
+    bottom:-4px;
+}
+
+.button2:hover {
+  cursor:pointer;
+}
+.info_icon{
+  position: absolute;
+  top:8px;
+  left:25px;
+  z-index:11;
+}
+.button2{
+  background-color:black;
+  position:absolute;
+  top:5px;
+  left:40px;
+}
+
+
+.info_icon img{width: 40px; height: auto;}
+

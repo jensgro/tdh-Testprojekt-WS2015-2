@@ -7,7 +7,7 @@
     </div>
    </button>
    
-   <div class="info_icon"><img src="/home/fresh/daten/WebPraktikum/button2/info-icon.png" alt="Spenden Icon"></div>
+   <div class="info_icon"><img src="tdh-Testprojekt-WS2015-2/dev/images/info-icon.gif" alt="Info Icon"></div>
    <button type="button" class="button2">
     <div class="text">
       Unser Spendenkonto
