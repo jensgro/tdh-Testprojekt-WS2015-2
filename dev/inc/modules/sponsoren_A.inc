@@ -2,29 +2,25 @@
 <div class="sponsors">
 	
 	<p><strong>Was wollen Sie sehen?</strong></p>
-	<form class="form_selection">
-		<select class="sel_character" id="setit">
-		  <option value="a.html">A</option>
-		  <option value="b.html">B</option>
+	<form class="form_selection" id="form_selection">
+		<select class="sel_character" id="filter">
+		  <option value="ueberuns-sponsoren.php#form_selection">A</option>
+		  <option value="ueberuns-sponsoren2.php#form_selection">B</option>
 		  <option value="c.html">C</option>
 		  <option value="d.html">D</option>
 		</select>
 	
-		<select class="sel_town" name="list2">
-		  <option value="1">Kuppenheim</option>
+		<select class="sel_town" name="list2" id="filter2">
+		  <option value="ueberuns-sponsoren2.php">Kuppenheim</option>
 		  <option value="2">Bischweiler</option>
 		  <option value="3">Karlsruhe</option>
 		  <option value="4">Gernsbach-Scheuern</option>
 		</select>
-	</form>
-
-
+	</form>	
 	<p class="form_selection1"><strong>Auswahl treffen und dann</strong>
-<input type="button" value="Inhalt sortieren" onclick="window.open(setit.options[setit.selectedIndex].value)">>
+	<input type="submit" value="Inhalt sortieren" onclick="location.href=(form_selection.filter.options[filter.selectedIndex].value);">
+	</p>
 
-</p>
-	
-	
 	<table class="sponsor_list">
         <tbody>
 			<tr>

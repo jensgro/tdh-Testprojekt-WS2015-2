@@ -18,7 +18,7 @@
 	);
 
   	$widecontent = array(
-  		'sponsoren.inc'
+  		'sponsoren_A.inc'
   );
 
 	include 'inc/templates/template-2-1-wide.inc';

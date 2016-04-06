@@ -18,8 +18,8 @@
 	);
 
   $widecontent = array(
-  	'leer.inc'
+  	'sponsoren_B.inc'
   );
   
-	include 'inc/templates/template-2-1.inc';
+	include 'inc/templates/template-2-1-wide.inc';
 ?>
