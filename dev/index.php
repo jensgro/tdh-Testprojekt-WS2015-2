@@ -7,7 +7,13 @@
 	// leer.inc ist nur ein Platzhalter, der gelöscht werden muss.
 	$contentleftincludes = array(
 	   'leer.inc',
-	   'leer.inc'
+	   'sponsor-list/header.inc',
+    'sponsor-list/sponsor.inc',
+    'sponsor-list/sponsor.inc',
+    'sponsor-list/sponsor.inc',
+    'sponsor-list/sponsor.inc',
+    'sponsor-list/sponsor.inc',
+    'sponsor-list/footer.inc'
 	);
 
 	$contentrightincludes = array(

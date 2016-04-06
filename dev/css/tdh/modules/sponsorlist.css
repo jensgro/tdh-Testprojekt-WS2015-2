@@ -19,12 +19,17 @@
   padding: 0;
   margin: 0;
 }
+
 .sponsor-list li{
-  display: inline;;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 19%;
+  margin-left: 0;
   list-style-type: none;
 }
 .sponsor-list img{
   transform: scale(0.95);
+  width: 100%;
 }
 .sponsor-list li a:hover img, .sponsor-list li a:focus img{
   transform: scale(1.0);
