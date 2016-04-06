@@ -1,4 +1,4 @@
-  <div class="box">
+  <div class="contactBox">
    <div class="image"> <img src="images/kontakt-symbol.gif" alt="bild person"></div>
    <div class="informationen">
      <div class="text1">Ihr Ansprechpartner für</div>
