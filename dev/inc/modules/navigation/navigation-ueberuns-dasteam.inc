@@ -12,7 +12,7 @@
       <div class="submenu">
         <ul>
           <li class="active"><a href="ueberuns-dasteam.php">Das Team</a></li>
-          <li><a href="#">Mitwirkende und Helfer</a></li>
+          <li><a href="ueberuns-mitwirkende.php">Mitwirkende und Helfer</a></li>
           <li><a href="ueberuns-sponsoren.php">Sponsoren</a></li>
           <li><a href="#">Über terre des hommes</a></li>
           <li><a href="ueberuns-aktivitaeten.php">Unsere Aktivitäten</a></li>
@@ -24,4 +24,4 @@
     <li><a href="presse.php">Presse</a></li>
     <li><a href="kontakt.php">Kontakt</a></li>
   </ul>
-</nav>  
+</nav>

@@ -1,9 +1,13 @@
 .table-emp tr:nth-of-type(even){
     background-image: url(../images/spaltenhintergrund-grau.gif);
-    
+
 }
 .table-emp table{
-    width: 70%;
+
+  /*
+  JG: In den meisten Fällen ist es am Besten, der Tabelle 100% Breite zu geben. Die soll sich ausbreiten. Abstände könnte Sie in diesem falle über .table-emp realisieren. Ansonsten wird die Breite über das Layout bestimmt. Wenn die Tabelle 100% breit ist, wird dafür gesorgt, dass sie sich der Umgebung anpasst. Fehlt die Breite, schrumpft sie auf ein Mindestmass.
+  */
+    width: 100%;
     margin: 5px;
     margin-top: 20px;
 }
@@ -16,12 +20,12 @@
 }
 .table-emp th{
     border-bottom: 2px solid #B1B3B3;
-    border-top: 2px solid #000;  
+    border-top: 2px solid #000;
     padding: 5px;
 }
 .table-emp td{
     padding-left: 5px;
-   
+
 }
 .table-emp tr{
      height: 69px;

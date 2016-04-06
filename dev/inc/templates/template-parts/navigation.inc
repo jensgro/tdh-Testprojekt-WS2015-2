@@ -24,6 +24,9 @@
       case "ueberuns":
           include "inc/modules/navigation/navigation-ueberuns.inc";
           break;
+      case "mitwirkende":
+          include "inc/modules/navigation/navigation-ueberuns-mitwirkende.inc";
+          break;
       case "sponsoren":
           include "inc/modules/navigation/navigation-ueberuns-sponsoren.inc";
           break;
