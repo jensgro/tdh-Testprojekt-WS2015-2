@@ -4,15 +4,16 @@
   border-top: 2px solid #b1b3b3;
   border-bottom: 2px solid #b1b3b3;
 }
-.sponsor-list h5{
-  font-size: 14px;
+.sponsor-list p{
+  margin-bottom: 10px;
+  font-size: 12px;
   color: #797979;
 }
-.sponsor-list h5>a{
+.sponsor-list p a{
   color: #ad1921;
   text-decoration: none;
 }
-.sponsor-list h5>a:hover,.sponsor-list h5>a:focus{
+.sponsor-list p a:hover,.sponsor-list p a:focus{
   color: red;
 }
 .sponsor-list ul{
