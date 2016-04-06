@@ -1,0 +1,33 @@
+.thanks {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #b1b3b3;
+}
+.thanks h5 {
+    color: #727272;
+    margin: 0;
+    font-size: 12px;
+}
+.thanks p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+.thanks img {
+    width: 100%;
+}
+.thanks a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 100%;
+    color: #B22831;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.thanks:after {
+    clear: both;
+    content: "";
+    display: block;
+    line-height: 0;
+    margin: 0;
+    visibility: hidden;
+}
