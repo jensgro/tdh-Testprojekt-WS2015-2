@@ -16,8 +16,9 @@
 	);
 
   $sideincludes = array(
-	   'leer.inc',
-	   'leer.inc'
+	   'donations-buttons.inc',
+	   'contact-person.inc',
+	   'contact-person2.inc'
 	);
 
 	// Auf manchen Seiten wird dieses Array benötigt.
