@@ -27,6 +27,9 @@
       case "mitwirkende":
           include "inc/modules/navigation/navigation-ueberuns-mitwirkende.inc";
           break;
+      case "uebertdh":
+          include "inc/modules/navigation/navigation-ueberuns-ueber-tdh.inc";
+          break;
       case "sponsoren":
           include "inc/modules/navigation/navigation-ueberuns-sponsoren.inc";
           break;

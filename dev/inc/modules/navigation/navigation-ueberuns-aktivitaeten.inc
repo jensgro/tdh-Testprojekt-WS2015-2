@@ -14,7 +14,7 @@
           <li><a href="ueberuns-dasteam.php">Das Team</a></li>
           <li><a href="ueberuns-mitwirkende.php">Mitwirkende und Helfer</a></li>
           <li><a href="ueberuns-sponsoren.php">Sponsoren</a></li>
-          <li><a href="#">Über terre des hommes</a></li>
+          <li><a href="ueberuns-ueber-tdh.php">Über terre des hommes</a></li>
           <li class="active"><a href="ueberuns-aktivitaeten.php">Unsere Aktivitäten</a></li>
         </ul>
       </div>
