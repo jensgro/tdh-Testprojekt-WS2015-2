@@ -1,5 +1,5 @@
 .table-emp tr:nth-of-type(even){
-    background-color: gainsboro;
+    background-image: url(../images/spaltenhintergrund-grau.gif);
     
 }
 .table-emp table{
