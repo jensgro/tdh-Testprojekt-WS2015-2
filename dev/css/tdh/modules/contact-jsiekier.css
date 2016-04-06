@@ -1,0 +1,46 @@
+
+
+.contact .formular label,
+.contact h3{
+    font-weight: bold;
+}
+.contact label{
+    float: left;
+    width: 40%;
+    margin-bottom: 0px;
+}
+.contact .formular p{
+    width: 40%;
+    font-size: 95%;
+    line-height: 1,2;
+}
+.contact input{
+    width: 30%;
+    margin: 5px;
+}
+.contact select{
+    width: 30%;
+    margin: 0;
+}
+.contact button{
+    background-color: #AD1921;
+    color: #fff;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-weight:inherit;
+    border:0;
+}
+.contact textarea{
+    resize: none;
+    width: 59%;  
+    float: right;
+}
+.contact .distance{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact .help{
+    margin-bottom: 75px;
+ 
+}
