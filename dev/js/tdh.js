@@ -30,7 +30,4 @@ $(document).ready(function () {
         })
       } );
     });
-
-    // schreib deinen Code nach diesem Kommentar
-
 });
