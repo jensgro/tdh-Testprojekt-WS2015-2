@@ -1,4 +1,4 @@
-<div class="employee"
+<div class="employee">
 
 <p>Hier finden Sie eine Liste all unserer aktiven Mitarbeiter. Mit der Karte können Sie feststellen, wer von uns wo aktiv und ansprechbar ist.</p>
 
@@ -6,9 +6,9 @@
 
 <thead>
 
-<th class='sort-default'>Name &#9660</th>
-<th class='no-sort'>Telefon</th>
-<th class='sort-default'>Ort  &#9660</th>
+<th class="sort-default">Name &#9660;</th>
+<th class="no-sort">Telefon</th>
+<th class="sort-default">Ort  &#9660;</th>
 
 </thead>
 

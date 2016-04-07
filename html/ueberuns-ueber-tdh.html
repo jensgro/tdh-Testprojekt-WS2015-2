@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <!--[if lte IE 8]>      <html class="oldie"  lang="de"> <![endif]-->
 <html lang="de">
 <head>
 	<meta charset="utf-8">
-	<title>Kontakt mit terre des hommes Murgtal/Mittelbaden</title>
+	<title>Das Team - terre des hommes Murgtal/Mittelbaden</title>
 
 	<script>document.documentElement.className += " js";</script>
 
@@ -50,43 +50,117 @@
   <ul>
     <li><a href="index.html">Start</a></li>
     <li><a href="veranstaltung.html">Veranstaltungen</a></li>
-    <li><a href="ueberuns-dasteam.html">Über Uns</a></li>
+    <li class="has-submenu active"><!-- Marker, um bereits an dieser Stelle zu wissen, dass noch ein Submenu kommt, wichtig für JS -->
+      <a href="ueberuns-dasteam.html">Über Uns</a>
+      <div class="submenu">
+        <ul>
+          <li><a href="ueberuns-dasteam.html">Das Team</a></li>
+          <li><a href="ueberuns-mitwirkende.html">Mitwirkende und Helfer</a></li>
+          <li><a href="ueberuns-sponsoren.html">Sponsoren</a></li>
+          <li class="active"><a href="ueberuns-ueber-tdh.html">Über terre des hommes</a></li>
+          <li><a href="ueberuns-aktivitaeten.html">Unsere Aktivitäten</a></li>
+        </ul>
+      </div>
+    </li>
     <li><a href="meldungen.html">Meldungen</a></li>
     <li><a href="helfen.html">Helfen</a></li>
-    <li class="active"><a href="presse.html">Presse</a></li>
+    <li><a href="presse.html">Presse</a></li>
     <li><a href="kontakt.html">Kontakt</a></li>
   </ul>
-</nav>        <h2 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h2>
+</nav>
+        <h2 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h2>
 
         <div class="ym-grid">
             <div class="ym-g66 ym-gl">
-              <div class="contact">
-    <h3>Kontakt mit terre des hommes Murgtal</h3>
-    <p>Schreiben Sie uns eine Nachricht - wir melden uns so schnell wie möglich bei Ihnen</p>
-    <form  class="formular clearfix">
-        <label for="request">Was ist Ihr Anliegen?</label>
-        <select id="request">
-            <option>Allgemeines</option>
-            <option>Default Option1</option>
-            <option>Default Option2</option>    
-        </select>
-        <p>Wählen Sie bitte aus, worum es Ihnen geht - so finden wir schneller den richtigen Ansprechpartner</p>
-        
-        <label for="name">Ihr Name*</label>
-        <input id="name" placeholder="Ihr Name">
-        <label for="mail">Ihre E-Mail Adresse*</label>
-        <input id="mail" type="email" placeholder="Ihre E-Mail Adresse">
-        <label for="txt" class="distance">Ihre Nachricht*</label>
-        
-        <textarea  class="distance" id="txt" type="email" rows="10"  placeholder="Ihre Nachricht an tdh Murgtal"></textarea>
-        <p class="help" >Hinterlassen Sie hier auch ihre Adresse oder Telefonnummer, wenn Sie möchten, dass wir telefonisch oder schriftlich mit Ihnen in Kontakt treten.</p>
-        
-        <button class="send">Nachricht senden</button>
-        
-    </form>
-</div>            </div>
+              <div class="employee">
+
+<p>Hier finden Sie eine Liste all unserer aktiven Mitarbeiter. Mit der Karte können Sie feststellen, wer von uns wo aktiv und ansprechbar ist.</p>
+
+<table id="table-id">
+
+<thead>
+
+<th class="sort-default">Name &#9660;</th>
+<th class="no-sort">Telefon</th>
+<th class="sort-default">Ort  &#9660;</th>
+
+</thead>
+
+
+<tbody>
+<tr>
+<td>Schlaffer, Willy</td>
+<td>07225/12345</td>
+<td>Gernsbach-Scheuern</td>
+</tr>
+
+<tr>
+<td>Hartwigsen, Johannes</td>
+<td>07225/23456</td>
+<td>Mainz</td>
+</tr>
+
+<tr>
+<td>Schwellung, Rosa</td>
+<td>07225/34567</td>
+<td>Rüsselsheim</td>
+</tr>
+
+<tr>
+<td>Arbeit, Andi</td>
+<td>07225/45678</td>
+<td>Frankfurt a. M.</td>
+</tr>
+
+<tr>
+<td>Hose, Kurt C.</td>
+<td>07225/56789</td>
+<td>Viernheim</td>
+</tr>
+
+<tr>
+<td>Johanna, Marie</td>
+<td>07225/67890</td>
+<td>Bergisch Gladbach</td>
+</tr>
+
+<tr>
+<td>Fährlich, Sergej</td>
+<td>07225/78901</td>
+<td>Bielefelf</td>
+</tr>
+
+<tr>
+<td>Stein, Shawn</td>
+<td>07225/89012</td>
+<td>Brasilien</td>
+</tr>
+
+<tr>
+<td>Panse, Jim</td>
+<td>07225/90123</td>
+<td>Frankfurt</td>
+</tr>
+
+
+
+
+</tbody>
+
+</table>
+</div>
+            </div>
             <div class="ym-g33 ym-gr">
-              <!-- einfach nur ein leeres File -->
+              <div class="colored-wrapper">
+  <h2>Die Macher</h2>
+  <ul>
+    <li><a href="#">Macher Vorname Nachname</a></li>
+    <li><a href="#">Macher Vorname Nachname</a></li>
+    <li><a href="#">Macher Vorname Nachname</a></li>
+    <li><a href="#">Macher Vorname Nachname</a></li>
+  </ul>
+  <a href="#">Alle Macher</a>
+</div>
             </div>
         </div>
         <!-- /.ym-grid  -->

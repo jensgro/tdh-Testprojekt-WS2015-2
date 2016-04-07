@@ -1,6 +1,8 @@
+/*JG: Können Sie keine Gemeinsamkeiten zwischen beiden Bottons finden, die Sie in eine gemeinsame Klasse giessen? */
 .spenden_button, .spendenkonto_button{
   position:relative;
-  width:180px;
+  /* Wird nicht benötigt. */
+  /*width:180px;*/
 }
 .button{
 background-color: white;
@@ -13,6 +15,11 @@ display: inline-block;
 width: 100%;
 height:45px;
 z-index:1;
+}
+
+/* JG: Die Selektoren sehen ein wenig seltsam aus. Aber da Sie keine einheitliche klasse als Bsis beider Buttons genommen haben, selektiere ich so beide, denn in beiden kommt der in den Klammern stehende Ausdruck vor. */
+[class*="_button"] + [class*="_button"] {
+  margin-top: 20px;
 }
 
 .spenden_icon{
@@ -34,6 +41,8 @@ button:active {
 }
 
 /*zweiter Button*/
+
+/* JG: der Text läuft zu weit, das Icon leigt über dem Text. */
 .text2{color: white; font-weight: bold; font-size: 14px; float:right; padding-right: 5px;}
 .button2{
 background-color: black;

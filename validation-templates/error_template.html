@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3C Error Report for {{filename}}</title>
+    <meta charset="UTF-8">
+
+    <style media="screen">
+      html {
+        font-family: Tahoma, "Lucida Grande", Verdana, Segoe, sans-serif;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: #a20000;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
+
+      table {
+        border: 0;
+        border-collapse:collapse;
+        background-color: #fff;
+        width: 100%
+      }
+
+      td, th {
+        padding: 5px;
+        text-align:center;
+        border: 2px solid SteelBlue;
+      }
+
+      thead th {
+        background-color: #70b7d9; /* #854616 */
+        font-size: 1.25rem;
+        white-space: nowrap;
+      }
+
+    </style>
+
+</head>
+<body>
+    <h1>W3C Validation Report</h1>
+    <h2>{{filename}}  | Error Count : {{error.length}}</h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Error Number</th>
+            <th>Error Type</th>
+            <th>Line Number</th>
+            <th>Error Message</th>
+            <th>Error Source Code Reference</th>
+        </tr>
+      </thead>
+
+      <tbody>
+      {{#each error}}
+        <tr>
+            <td>{{@index}} </td>
+            <td>
+                {{#if subType}}
+                    {{subType}}
+                {{else}}
+                    {{type}}
+                {{/if}}
+            </td>
+            <td>{{lastLine}} </td>
+            <td>{{message}} </td>
+            <td>
+              <code>
+                {{errSrcFirstPart}}{{{errSrcToHighlight}}}{{errSrcSecondPart}}
+              </code>
+            </td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
+</body>
+</html>

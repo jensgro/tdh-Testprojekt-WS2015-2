@@ -17,7 +17,7 @@
 
 /*New Styles for colored background in articles*/
 .colored-wrapper{
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: #e6ffff;
   color: #004d4d;
   font-family: sans-serif;;

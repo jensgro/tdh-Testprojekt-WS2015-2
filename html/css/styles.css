@@ -15,6 +15,8 @@
 @import url("tdh/modules/contact-person.css");
 @import url("tdh/modules/contact.css");
 @import url("tdh/modules/contact-julges.css");
+@import url("tdh/modules/contact_x.css");
+@import url("tdh/modules/contact-jsiekier.css");
 @import url("tdh/modules/navigation-standard.css");
 @import url("tdh/modules/donation-buttons.css");
 @import url("tdh/modules/thanks.css");
@@ -23,4 +25,6 @@
 @import url("tdh/modules/content-widget.css");
 @import url("tdh/modules/content-widget-background.css");
 @import url("tdh/modules/table-employee.css");
+@import url("tdh/modules/table-employee_x.css");
+@import url("tdh/modules/table-employee-jsiekier.css");
 @import url("tdh/modules/press-archive.css");

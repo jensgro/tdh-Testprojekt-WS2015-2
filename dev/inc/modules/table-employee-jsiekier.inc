@@ -1,14 +1,14 @@
 <div class="table-emp">
     <p>Hier finden Sie eine Liste all unserer aktiven Mitarbeiter</p>
     <p> Mit der Karte können Sie feststellen, wer von uns wo aktiv und ansprechbar ist</p>
-    
-    
+
+
     <table class="tablesorter" id="table-id">
         <thead>
             <tr>
-                <th class='sort-default form'>Name</th>
-                <th class='no-sort'>Telefon</th>
-                <th class='sort-default form'>Ort</th>
+                <th class="sort-default form">Name</th>
+                <th class="no-sort">Telefon</th>
+                <th class="sort-default form">Ort</th>
             </tr>
         </thead>
         <tbody>
@@ -59,5 +59,5 @@
             </tr>
         </tbody>
     </table>
-    
+
 </div>

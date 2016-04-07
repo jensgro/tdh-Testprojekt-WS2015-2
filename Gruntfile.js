@@ -57,15 +57,38 @@ module.exports = function(grunt) {
       } // default
     }, // php2html
 
-    validation: {
-      options: {
-        reset: grunt.option('reset') || false,
-        stoponerror: false
-      },
-      files: {
-        src: ['html/*.html']
-      }
-    }, // validation
+
+        validation: {
+          html: {
+            options: {
+              reset: grunt.option('reset') || false,
+              stoponerror: false,
+              generateReport: true,
+              errorHTMLRootDir: "validation-HTML",
+              useTimeStamp: true,
+              errorTemplate: "validation-templates/error_template.html"
+            },
+            files: {
+              src: ['html/*.html']
+            }
+          },
+          inc: {
+            options: {
+              reset: grunt.option('reset') || false,
+              stoponerror: false,
+              wrapfile: 'validation-templates/inc-wrapper.html',
+              generateReport: true,
+              errorHTMLRootDir: "validation-inc",
+              useTimeStamp: true,
+              errorTemplate: "validation-templates/error_template.html",
+              relaxerror: 'Saw <?. Probable cause: Attempt to use an XML processing instruction in HTML. (XML processing instructions are not supported in HTML.)'
+            },
+            files: {
+              src: ['dev/inc/modules/*.inc']
+            }
+          }
+        }, // validation
+
 
     analyzecss: {
       prod: {
@@ -115,5 +138,6 @@ module.exports = function(grunt) {
   grunt.registerTask('dist', ['clean:dist', 'copy:dist', 'replace:dist']);
   grunt.registerTask('html', ['clean:html', 'php2html', 'copy:html']);
   // grunt.registerTask('html', ['clean:html', 'php2html', 'copy:html', 'validation']);
-
+  grunt.registerTask('inc-validierung', ['validation:inc']);
+	grunt.registerTask('html-validierung', ['validation:html']);
 };
